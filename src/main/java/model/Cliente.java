@@ -52,4 +52,5 @@ public class Cliente {
     public void setnTelefonico(int nTelefonico) {
         this.nTelefonico = nTelefonico;
     }
+
 }
