@@ -48,12 +48,13 @@ public class Automotora {
 
     }
 
-    public void eliminarVehiculo(){
+    public void eliminarVehiculo(Vehiculo vehiculo){
+        this.vehiculos.remove(vehiculo);
 
     }
 
-    public void eliminarCliente(){
-
+    public void eliminarCliente(Cliente cliente){
+        this.clientes.remove(cliente);
     }
 
     public List<Vehiculo> buscarVehiculoMarca(MarcaVehiculo marca){
@@ -100,6 +101,7 @@ public class Automotora {
     public void setSedes(List<Sede> sedes) {
         this.sedes = sedes;
     }
+
 
 
 }
