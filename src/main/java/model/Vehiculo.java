@@ -2,14 +2,14 @@ package model;
 
 public class Vehiculo {
 
-    private String nombre;
+    private String nombreVehiculo;
     private MarcaVehiculo marca;
     private ColorVehiculo color;
     private int anio;
     private double precio, kmRecorridos;
 
     public Vehiculo(String nombre, MarcaVehiculo marca, ColorVehiculo color, int anio, double precio, double kmRecorridos) {
-        this.nombre = nombre;
+        this.nombreVehiculo = nombre;
         this.marca = marca;
         this.color = color;
         this.anio = anio;
@@ -17,12 +17,12 @@ public class Vehiculo {
         this.kmRecorridos = kmRecorridos;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombreVehiculo() {
+        return nombreVehiculo;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombreVehiculo(String nombreVehiculo) {
+        this.nombreVehiculo = nombreVehiculo;
     }
 
     public MarcaVehiculo getMarca() {

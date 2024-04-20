@@ -2,10 +2,9 @@ package model;
 
 public class Cliente {
 
-    private String nombreCliente, direccion, correo, rut;
-    private int nTelefonico;
+    private String nombreCliente, direccion, correo, rut, nTelefonico;
 
-    public Cliente(String nombreCliente, String direccion, String correo, String rut, int nTelefonico) {
+    public Cliente(String nombreCliente, String direccion, String correo, String rut, String nTelefonico) {
         this.nombreCliente = nombreCliente;
         this.direccion = direccion;
         this.correo = correo;
@@ -45,11 +44,12 @@ public class Cliente {
         this.rut = rut;
     }
 
-    public int getnTelefonico() {
+    public String getnTelefonico() {
         return nTelefonico;
     }
 
-    public void setnTelefonico(int nTelefonico) {
+    public void setnTelefonico(String nTelefonico) {
         this.nTelefonico = nTelefonico;
     }
+
 }
